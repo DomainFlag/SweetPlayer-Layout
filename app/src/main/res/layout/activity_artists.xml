@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/status_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:textSize="16sp"
+            android:textColor="@color/icons"
+            android:text="@string/app_artists"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:background="@drawable/container" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:elevation="32dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/activity_artists_artist" />
+                <include layout="@layout/activity_artists_artist" />
+                <include layout="@layout/activity_artists_artist" />
+                <include layout="@layout/activity_artists_artist" />
+                <include layout="@layout/activity_artists_artist" />
+                <include layout="@layout/activity_artists_artist" />
+                <include layout="@layout/activity_artists_artist" />
+                <include layout="@layout/activity_artists_artist" />
+                <include layout="@layout/activity_artists_artist" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+    <include layout="@layout/media_player_status" />
+
+</LinearLayout>
+

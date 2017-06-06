@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SweetPlayer</string>
+    <string name="main_header">Playing Media Status</string>
+
+    <string-array name="spinner_array">
+        <item>Songs</item>
+        <item>Artists</item>
+        <item>Albums</item>
+        <item>Genres</item>
+    </string-array>
+
+    <string name="app_albums">Albums</string>
+    <string name="app_songs">Songs</string>
+    <string name="app_artists">Artists</string>
+    <string name="app_genres">Genres</string>
+
+    <string name="app_song_title">The xx - I dare you.</string>
+
+</resources>
