@@ -3,14 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:background="@color/colorPrimary"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/status_bar"
@@ -19,9 +19,9 @@
             android:layout_weight="1"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/activity_horizontal_margin"
-            android:textSize="16sp"
+            android:text="@string/app_artists"
             android:textColor="@color/icons"
-            android:text="@string/app_artists"/>
+            android:textSize="@dimen/activity_header" />
 
         <Spinner
             android:id="@+id/spinner"
@@ -49,13 +49,21 @@
                 android:orientation="vertical">
 
                 <include layout="@layout/activity_artists_artist" />
+
                 <include layout="@layout/activity_artists_artist" />
+
                 <include layout="@layout/activity_artists_artist" />
+
                 <include layout="@layout/activity_artists_artist" />
+
                 <include layout="@layout/activity_artists_artist" />
+
                 <include layout="@layout/activity_artists_artist" />
+
                 <include layout="@layout/activity_artists_artist" />
+
                 <include layout="@layout/activity_artists_artist" />
+
                 <include layout="@layout/activity_artists_artist" />
 
             </LinearLayout>

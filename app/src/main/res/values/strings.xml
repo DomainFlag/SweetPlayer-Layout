@@ -9,10 +9,10 @@
         <item>Genres</item>
     </string-array>
 
-    <string name="app_albums">Albums</string>
-    <string name="app_songs">Songs</string>
-    <string name="app_artists">Artists</string>
-    <string name="app_genres">Genres</string>
+    <string name="app_albums">All Albums</string>
+    <string name="app_songs">All Songs</string>
+    <string name="app_artists">All Artists</string>
+    <string name="app_genres">All Genres</string>
 
     <string name="app_song_title">The xx - I dare you.</string>
 
