@@ -48,6 +48,18 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:text="@string/app_content_info"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:text="@string/app_artists_info"/>
+
                 <include layout="@layout/activity_artists_artist" />
 
                 <include layout="@layout/activity_artists_artist" />

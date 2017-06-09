@@ -14,6 +14,30 @@
     <string name="app_artists">All Artists</string>
     <string name="app_genres">All Genres</string>
 
+    <string name="app_play_info">Use of MediaPlayer class (https://developer.android.com/reference/android/media/MediaPlayer.html)
+        for playing media files(MP3 and so on), through the use of useful methods as stop/play(Pause/Play(use later) with the help
+        of toggle drawable(xml)), and create(for adding audio file) and so on.
+        The shuffle button would be cool if it could be used to find the current tastes of user based on the history of played audios,
+        heartbeat, mood(the rate of clicking stuff(more or less excited), and use of data(A.I) to generate prefferable audio to be played
+        succinctly.
+    </string>
+
+    <string name="app_content_info">Use of MediaStore class to find all media files(audio) by specifying the format we are searching and
+        generating views through looping the JSON/Array results and get also the ID we are looking for and store as invisible
+        information in the TextView(Tag attribute and use latter for getting the path for audio for MediaPlayer using.).</string>
+
+    <string name="app_albums_info">Here is a list of all unique albums present in the user phone, generated into this activity, at the
+    click of the button, it opens an activity with the songs that are contained in the album clicked.</string>
+
+    <string name="app_songs_info">Here is a list of all unique songs present in the user phone, generated into this activity, clicking the
+        song triggers the clickEvent with the callback to open the activity_play with the song being played.</string>
+
+    <string name="app_genres_info">Here is a list of all unique and possible genres present in the user phone, generated into this activity,
+        clicking the genre should open the songs_activity with specific if statement to find the songs with the genre we chose.</string>
+
+    <string name="app_artists_info">Here is a list of all artists on the current phone, click an artist should open all the albums made
+        by the artist chosen, and the songs afterwards.</string>
+
     <string name="app_song_title">The xx - I dare you.</string>
 
 </resources>
